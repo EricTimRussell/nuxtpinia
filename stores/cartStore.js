@@ -39,6 +39,23 @@ export const useCartStore = defineStore('cart', {
         method: 'PUT',
         body: JSON.stringify(updatedProduct)
       })
+    },
+    async decQuantity(product) {
+      let updatedProduct
+
+      this.cart = this.cart.map(p => {
+        if (p.id == product.id && p.quantity > 1) {
+          p.quantity--
+          updatedProduct = p
+        }
+        return p
+      })
+      if (updatedProduct) {
+        await $fetch('http://localhost:4000/cart/' + product.id, {
+          method: 'PUT',
+          body: JSON.stringify(updatedProduct)
+        })
+      }
     }
-  },
+  }
 })
