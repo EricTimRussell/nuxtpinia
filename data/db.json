@@ -15,6 +15,22 @@
       "img": "/img/hammer.png",
       "id": 2,
       "quantity": 1
+    },
+    {
+      "title": "Ring of Fortitude",
+      "price": 75,
+      "description": "Casts a magic protection barrier.",
+      "img": "/img/ring.png",
+      "id": 4,
+      "quantity": 1
+    },
+    {
+      "title": "Crystal Sword",
+      "price": 120,
+      "description": "Sharp sword the can cut through armour.",
+      "img": "/img/sword.png",
+      "id": 5,
+      "quantity": 2
     }
   ],
   "products": [
