@@ -15,14 +15,6 @@
       "img": "/img/hammer.png",
       "id": 2,
       "quantity": 1
-    },
-    {
-      "title": "Healing Crystal",
-      "price": 30,
-      "description": "Makes the owner immune to poison.",
-      "img": "/img/crystal.png",
-      "id": 7,
-      "quantity": 1
     }
   ],
   "products": [

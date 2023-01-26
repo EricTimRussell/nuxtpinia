@@ -2,11 +2,19 @@
   <div>
     <h2 class="text-white text-2xl text-center my-8">Your Cart</h2>
     <div class="card text-xl" v-if="cartStore.cart.length">
+
       <!--cart product list  -->
       <div v-for="product in cartStore.cart" class="flex gap-8 items-center border-solid border-2 my-2">
         <img :src="product.img" :alt="product.title">
         <p class="text-white">{{ product.title }}</p>
+        <!-- product quantity -->
+        <ProductQuantity :product="product" />
         <p class="text-white">{{ product.price * product.quantity }} coins</p>
+
+        <!-- Remove item from cart -->
+        <button class="ml-auto" @click="cartStore.deleteFromCart(product)">
+          <span class="material-symbols-outlined text-white">delete</span>
+        </button>
       </div>
     </div>
 
