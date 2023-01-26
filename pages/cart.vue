@@ -13,8 +13,8 @@
         <p class="text-white">{{ product.price * product.quantity }} coins</p>
 
         <!-- Remove item from cart -->
-        <button class="ml-auto" @click="cartStore.deleteFromCart(product)">
-          <span class="material-symbols-outlined text-white">delete</span>
+        <button class="ml-auto mr-5" @click="cartStore.deleteFromCart(product)">
+          <span class="material-symbols-outlined text-white hover:text-red-700">delete</span>
         </button>
       </div>
     </div>
@@ -24,9 +24,11 @@
     </div>
 
     <!-- Cart Total -->
-    <div class="text-right pt-4 mt-4 border-t-2">
-      <span class="text-white">Total:</span>
-      <span class="text-secondary">{{ cartStore.cartTotal }}</span>
+    <div class="flex justify-between text-xl pt-4 mt-4 border-t-2">
+      <button class="text-secondary hover:scale-125">
+        <span class="material-symbols-outlined">shopping_cart_checkout</span>
+      </button>
+      <span class="text-secondary"><span class="text-white">Total: </span> {{ cartStore.cartTotal }} Silver</span>
     </div>
   </div>
 </template>
