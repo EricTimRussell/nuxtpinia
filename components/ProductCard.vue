@@ -5,8 +5,9 @@
       <p class="text-2xl text-secondary">{{ product.title }}</p>
       <p class="text-xl text-gray-50">{{ product.description }}</p>
       <p class="text-lg text-secondary my-3">{{ product.price }} Silver Coins</p>
-      <button class="btn" @click="addToBasket()">
-        <span>Add to Cart</span>
+      <button class="btn" @click="addToBasket()" :disabled="isPending">
+        <span v-show="!isPending">Add to Cart</span>
+        <span v-show="isPending">Adding...</span>
       </button>
     </div>
   </div>
@@ -14,13 +15,21 @@
 
 <script setup>
 import { useCartStore } from "~~/stores/cartStore";
+import { ref } from "vue";
 
 
 const { product } = defineProps(['product'])
+
 const cartStore = useCartStore()
 
+const isPending = ref(false)
+
 const addToBasket = async () => {
+  isPending.value = true
   await cartStore.addToCart(product)
+  setTimeout(() => {
+    isPending.value = false
+  }, 1000)
 }
 </script>
 

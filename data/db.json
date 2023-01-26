@@ -31,6 +31,14 @@
       "img": "/img/sword.png",
       "id": 5,
       "quantity": 2
+    },
+    {
+      "title": "Sun Shield",
+      "price": 50,
+      "description": "Shield passed down the by tribe of Ancients.",
+      "img": "/img/shield.png",
+      "id": 3,
+      "quantity": 1
     }
   ],
   "products": [
