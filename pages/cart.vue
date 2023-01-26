@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="text-white text-2xl text-center my-8">Your Cart</h2>
-    <div class="card text-xl" v-if="cartStore.cart.length">
+    <div class="card-cart text-xl" v-if="cartStore.cart.length">
 
       <!--cart product list  -->
       <div v-for="product in cartStore.cart" class="flex gap-8 items-center border-solid border-2 my-2">

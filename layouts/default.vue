@@ -2,7 +2,7 @@
   <div class="m-8">
     <header class="wrapper flex justify-between">
       <NuxtLink to="/">
-        <h1 class="text-secondary text-5xl hover:scale-125">Adventure Store</h1>
+        <h1 class="text-secondary text-5xl hover:scale-110">Adventure Store</h1>
       </NuxtLink>
       <NuxtLink to="/cart" class="hover:scale-125">
         <span class="material-symbols-outlined text-secondary text-5xl">
