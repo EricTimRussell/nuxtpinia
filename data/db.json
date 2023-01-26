@@ -4,84 +4,84 @@
     {
       "title": "Lava Potion",
       "price": 20,
-      "description": "Gain heat resistance for 3 minutes.",
+      "description": "Gain heat resistance or it might just kill you.",
       "img": "/img/potion.png",
       "id": 1
     },
     {
-      "title": "Poison Hammer",
+      "title": "Hammer",
       "price": 100,
-      "description": "Hammer infused with posion gem magic.",
+      "description": "This is not your grandpa's hammer.",
       "img": "/img/hammer.png",
       "id": 2
     },
     {
       "title": "Sun Shield",
       "price": 50,
-      "description": "Shield passed down the by tribe of Ancients.",
+      "description": "A bright shiny shield.",
       "img": "/img/shield.png",
       "id": 3
     },
     {
       "title": "Ring of Fortitude",
       "price": 75,
-      "description": "Casts a magic protection barrier.",
+      "description": "Casts a magic protection barrier to protect you from temptation.",
       "img": "/img/ring.png",
       "id": 4
     },
     {
       "title": "Crystal Sword",
       "price": 120,
-      "description": "Sharp sword the can cut through armour.",
+      "description": "Sharp sword that breaks easily.",
       "img": "/img/sword.png",
       "id": 5
     },
     {
       "title": "Summoning Book",
       "price": 200,
-      "description": "Summon the undead to aid in battle.",
+      "description": "Summon the undead to aid in battle or eat your brains.",
       "img": "/img/book.png",
       "id": 6
     },
     {
       "title": "Healing Crystal",
       "price": 30,
-      "description": "Makes the owner immune to poison.",
+      "description": "Maybe a little homeopathic medicine will cure that wound.",
       "img": "/img/crystal.png",
       "id": 7
     },
     {
       "title": "Healing Herbs",
       "price": 30,
-      "description": "Restores user back to full health.",
+      "description": "Smoke it and you will feel right as rain and maybe a little hungry.",
       "img": "/img/herb.png",
       "id": 8
     },
     {
       "title": "Flaming Axe",
       "price": 150,
-      "description": "Attack foes with burning energy.",
+      "description": "Attack foes with an axe that gives you 3rd degree burns.",
       "img": "/img/axe.png",
       "id": 9
     },
     {
       "title": "Exploding Gem",
       "price": 50,
-      "description": "Throw at the ground to explode.",
+      "description": "Don't drop it...",
       "img": "/img/gem.png",
       "id": 10
     },
     {
       "title": "Mysterious Key",
       "price": 500,
-      "description": "Opens a chest sealed by darkness.",
+      "description": "I found this key I dont know what it goes to.",
       "img": "/img/key.png",
       "id": 11
     },
     {
       "title": "Golden Rock",
       "price": 100,
-      "description": "Used to trade with the mountain dwarves.",
+      "description": "Fool your friends into thinking you have real gold.",
       "img": "/img/gold.png",
       "id": 12
     }

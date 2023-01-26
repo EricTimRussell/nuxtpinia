@@ -12,7 +12,7 @@ body {
 }
 
 .card {
-  @apply bg-primary shadow-xl rounded-md p-4
+  @apply bg-primary shadow-xl rounded-md p-4 min-h-full
 }
 
 .btn {
