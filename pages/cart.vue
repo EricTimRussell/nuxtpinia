@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-white text-2xl text-center my-8">Your Cart</h2>
+    <h2 class="text-white text-3xl text-center my-8 underline">Your Cart</h2>
     <div class="card-cart text-xl" v-if="cartStore.cart.length">
 
       <!--cart product list  -->
@@ -20,11 +20,11 @@
     </div>
 
     <div v-else>
-      <p class="text-white">No Items in Cart</p>
+      <p class="text-white text-2xl text-center">No Items in your Cart</p>
     </div>
 
     <!-- Cart Total -->
-    <div class="flex justify-between text-xl pt-4 mt-4 border-t-2">
+    <div class="flex justify-between text-xl pt-4 mt-4 border-t-2" v-if="cartStore.cartTotal.length == 0">
       <button class="text-secondary hover:scale-125">
         <span class="material-symbols-outlined">shopping_cart_checkout</span>
       </button>

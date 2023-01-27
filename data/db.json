@@ -1,30 +1,5 @@
 {
-  "cart": [
-    {
-      "title": "Healing Herbs",
-      "price": 30,
-      "description": "Smoke it and you will feel right as rain and maybe a little hungry.",
-      "img": "/img/herb.png",
-      "id": 8,
-      "quantity": 1
-    },
-    {
-      "title": "Sun Shield",
-      "price": 50,
-      "description": "A bright shiny shield.",
-      "img": "/img/shield.png",
-      "id": 3,
-      "quantity": 1
-    },
-    {
-      "title": "Crystal Sword",
-      "price": 120,
-      "description": "Sharp sword that breaks easily.",
-      "img": "/img/sword.png",
-      "id": 5,
-      "quantity": 1
-    }
-  ],
+  "cart": [],
   "products": [
     {
       "title": "Lava Potion",
