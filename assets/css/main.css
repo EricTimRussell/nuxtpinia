@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-dark
+  @apply bg-[url('/public/img/bg-rpg.png')] h-screen bg-fixed
 }
-
 
 .wrapper {
   @apply my-8 max-w-5xl mx-auto
